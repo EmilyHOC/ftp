@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>flex</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+           display:flex;
+        }
+        .left{
+            flex: 0 0 auto;
+            background-color: greenyellow;
+            height:100px;
+        }
+        .right{
+            flex: 1 1 auto;
+            background-color: #eacaaa;
+            height: 100px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left">左边120</div>
+    <div class="right">右边自适应</div>
+</div>
+</body>
+</html>

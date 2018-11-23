@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>layout</title>
+    <style>
+        *{
+            margin: 0;
+            bottom: 0;
+        }
+        #box>div{
+            position: absolute;
+        }
+        .left{
+            left:0;
+            top:0;
+            width:300px;
+            background-color: greenyellow;
+            height: 500px;
+        }
+        .right{
+            width: 300px;
+            top:0;
+            height: 500px;
+            right:0;
+            background-color: red;
+        }
+        .center{
+            top:0;
+            height: 500px;
+            left:300px;
+            right:300px;
+            color: #45ea;
+            background-color: purple;
+        }
+
+    </style>
+</head>
+<body>
+<article id="box">
+    <div class="left"></div>
+    <div class="right"></div>
+    <div class="center">
+        <h1>浮动解决方案</h1>
+        1.中间部分
+    </div>
+</article>
+</body>
+</html>

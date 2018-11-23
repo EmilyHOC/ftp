@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 120px 1fr;
+            align-items: start;
+        }
+        .left,.right{
+            box-sizing: border-box;
+        }
+        .left{
+            /*grid-column: 1;*/
+            background-color: greenyellow;
+        }
+        .right{
+            /*grid-column: 2;*/
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <div class="left">左边120</div>
+    <div class="right">右边自适应</div>
+</div>
+</body>
+</html>
